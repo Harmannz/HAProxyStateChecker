@@ -6,10 +6,10 @@ here = path.abspath(path.dirname(__file__))
 setup(
     name='haproxystatechecker',
     version='1.0.0',
-    description='A Python algorithms module for checking haproxy state',
+    description='A Python module for checking state of HAProxy backend servers',
     long_description=open('README.md').read(),
     # The project's main homepage.
-    url='TODO',
+    url='https://github.com/Harmannz/HAProxyStateChecker',
     # Author details
     author='TODO',
     author_email='TODO',
@@ -27,10 +27,9 @@ setup(
         # Specify the Python versions you support here. In particular, ensure
         # that you indicate whether you support Python 2, Python 3 or both.
         'Programming Language :: Python :: 3',
-        'Programming Language :: Python :: 3.3',
-        'Programming Language :: Python :: 3.4',
-        'Programming Language :: Python :: 3.5',
         'Programming Language :: Python :: 3.6',
+        'Programming Language :: Python :: 3.7',
+        'Programming Language :: Python :: 3.8',
     ],
     packages=find_packages()
 )
