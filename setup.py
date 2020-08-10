@@ -6,10 +6,10 @@ here = path.abspath(path.dirname(__file__))
 setup(
     name='haproxystatechecker',
     version='1.0.0',
-    description='A Python algorithms module for checking haproxy state',
+    description='A Python module for checking state of HAProxy backend servers',
     long_description=open('README.md').read(),
     # The project's main homepage.
-    url='TODO',
+    url='https://github.com/Harmannz/HAProxyStateChecker',
     # Author details
     author='TODO',
     author_email='TODO',
