@@ -1,5 +1,7 @@
 # HAProxy Check Server State
 
+![.github/workflows/test.yml](https://github.com/Harmannz/HAProxyStateChecker/workflows/.github/workflows/test.yml/badge.svg)
+
 Helper script to verify state of HAProxy backend servers.
 Use this to verify the state of HAProxy backends after you drain or enable it in your pipeline.
 
