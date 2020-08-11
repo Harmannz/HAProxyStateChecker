@@ -11,7 +11,7 @@ HAProxy typically has multiple backends which contain pool of servers to load-ba
 To deploy to a particular server, sysadmins need to drain the server of incoming requests before deploy the changes (applicable if you are not on k8s yet).
 This manual step can be automated by enabling Unix socket commands or through rest api in recent HAProxy versions.
 
-This repo relies on Unix socket commands being enable, it can easily be refactored to work with REST API.
+This repo relies on Unix socket commands being enabled, it can easily be refactored to work with REST API.
 
 A typical workflow would look like the following:
 
